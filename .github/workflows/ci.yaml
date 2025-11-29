@@ -22,4 +22,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: jucavi4ever/python-app:${GITHUB_SHA::6}
+          tags: jucavi4ever/python-app:${{ github.sha }}
