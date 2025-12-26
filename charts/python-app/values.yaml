@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: jucavi4ever/python-app
   pullPolicy: IfNotPresent
-  tag: 9b3503
+  tag: 5f3540
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
