@@ -9,7 +9,7 @@ on:
 
 jobs:
   ci:
-    runs-on: ubuntu-latests
+    runs-on: ubuntu-latest
     steps:
       - name: Shorten commit id
         shell: bash
