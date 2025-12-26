@@ -42,7 +42,7 @@ jobs:
         shell: bash
         run: |
           argocd login argocd.test.com \
-            --insercure \
+            --insecure \
             --grpc-web \
             --username admin\
             --password ${{ secrets.ARGOCD_PASSWORD }}
