@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-app
+  description: Displays the time
+  # Example for optional annotations
+  annotations:
+    github.com/project-slug: jucavi4ever/python-app
+  
+spec:
+  type: website
+  owner: development
+  lifecycle: experimental
